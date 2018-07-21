@@ -1,0 +1,82 @@
+@import "_mixins/_vars/fonts";
+//@import "../fonts/font-awesome/scss/font-awesome";
+@import "_mixins/_vars/libs";
+@import "_mixins/_vars/vars";
+
+* {
+  box-sizing: border-box;
+  &:before {
+    box-sizing: border-box;
+  }
+  &:before {
+    box-sizing: border-box;
+  }
+  &::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+  }
+  &:-moz-placeholder {
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+  }
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+html, body {
+  height: 100%;
+}
+body {
+  min-width: 320px;
+
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #cccccc;
+}
+button:focus {
+  outline: none!important;
+}
+.clear {
+  clear: both;
+}
+label.error{
+  display: none!important;
+}
+input.error{
+  border: 1px solid #ff0000!important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #ffcc00;
+  font-family: $bernhard;
+  font-size: 150px;
+  font-style: italic;
+}
